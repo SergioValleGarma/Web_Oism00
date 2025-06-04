@@ -1,0 +1,30 @@
+.btnMasInformacion {
+    display: block;
+    background-color: red;
+    padding: 5px 0px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s;
+
+}
+
+.btnMasInformacion:hover {
+    color: white;
+    scale: 1.1;
+}
+
+.noticias-hd{
+    width: min-content;
+    background-color: #e30613;
+    padding: 5px 45px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 0.8rem;
+}
+
+footer{
+    overflow-x: auto;
+}

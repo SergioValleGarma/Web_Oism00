@@ -1,0 +1,816 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); */
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&display=swap');*/
+ 
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    padding: 10px 0;
+}
+
+.nav-icon-insignia {
+    padding-right: 7px;
+}
+
+.nav-icon-peru {
+    background-color: rgb(229, 40, 48);
+    color: #fff;
+    padding: 8px;
+    height: 42px;
+}
+
+.nav-icon-midis {
+    width: 150px;
+    background: rgb(59, 59, 59);
+    color: #fff;
+    padding: 6px;
+    font-size: 11px;
+    line-height: 11px;
+    height: 42px;
+}
+
+.logo-card {
+    left: 37%;
+    bottom: 88%;
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: rgb(157, 157, 156);
+    padding: 10px 13px 20px 13px;
+    z-index: 1;
+}
+
+.nav-icon-title {
+    color: rgb(229, 40, 48);
+    line-height: 26px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.nav-icon-title-fone {
+    color: rgb(229, 40, 48);
+    line-height: 21px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 0 0 10px;
+}
+
+.nav-icon-title div,
+.nav-icon-title-fone div {
+    color: rgb(32, 114, 185);
+    font-weight: bold;
+}
+
+.nav-icon-title strong {
+    font-weight: 900;
+}
+
+
+
+.text-title {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    color: rgb(32, 114, 185);
+    font-weight: bold;
+}
+
+.line-text-title{
+    border: 1px solid;
+    margin: 0 0 5px 0;
+}
+
+.content-line{
+    transform: rotate(180deg);
+    width: 200px;
+    position: absolute; 
+    right: 0px;top: 0;
+}
+
+.line-text-title:nth-child(1) {
+    width: 40%;
+    
+  }
+
+
+
+.title-background {
+    background: rgb(218, 218, 218);
+}
+
+hr {
+    height: 2px;
+    border: 0;
+    background-color: rgb(32, 114, 185);
+    opacity: .9;
+    margin: 0 0 10px 0;
+}
+
+.card-body h2 {
+    font-size: 22px;
+}
+
+.content-card {
+    width: 23rem;
+    color: rgb(32, 114, 185);
+    margin: 55px 10px 10px 10px;
+    -webkit-box-shadow: 16px 20px 17px -16px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 16px 20px 17px -16px rgba(0, 0, 0, 1);
+    box-shadow: 16px 20px 17px -16px rgba(0, 0, 0, 1);
+    font-family: 'Montserrat', sans-serif;
+    animation: animar ;
+    animation-duration: 1s;
+    animation-timing-function:ease-out;
+}
+
+.logoPS{
+    height: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@keyframes animar{
+    /* Medir el procentaje del keyframes punto inicial 0% inicio 100% completado */
+    0%{
+        transform: scale(.3);
+    }
+}
+
+
+/*Seccion de atencion telefonica */
+
+.numero-marcacion {
+    display: inline-block;
+    border: 5px solid rgb(32, 114, 185);
+    padding: 10px 10px;
+    color: rgb(229, 40, 48);
+    font-weight: bold;
+    text-align: center;
+    /* font-size: 18px; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.text-atencion-marcacion {
+    color: rgb(32, 114, 185);
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    animation: animar ;
+    animation-duration: 3s;
+    animation-timing-function:ease-out;
+}
+
+.marcacion-left {
+    animation-duration: 3s;
+    animation-name: rotating-text-left;
+}
+
+@keyframes rotating-text-left {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  
+  .marcacion-right{
+    animation-duration: 3s;
+    animation-name: rotating-text-right;
+  }
+
+  @keyframes rotating-text-right {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+/*Area de link atencion al Ciudadano*/
+
+.content-card-link-aplicaciones .card .row div {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.content-card-link-aplicaciones .card .row div a {
+    text-decoration: none;
+    line-height: 18px;
+    color: rgb(70, 69, 69);
+}
+
+.content-card-link-aplicaciones .card .row div a p,
+.card-link-mas-sobre-midis p {
+    margin: 10px 5px;
+}
+
+
+
+
+/*--------------------------------*/
+
+/*----------------------------------*/
+.card-link-mas-sobre-midis a {
+    max-width: 250px;
+    display: inline-block;
+    margin: 13px 10px;
+    text-decoration: none;
+    line-height: 18px;
+    color: rgb(70, 69, 69);
+}
+
+
+
+/*----------------------------------------------*/
+/*----------------Resultados--------------------*/
+
+
+
+.triangulo {
+    margin-top: 36px;
+}
+
+.triangulo:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 16px solid rgb(32, 114, 185);
+    margin-right: 10px;
+
+}
+
+.content-card-link-title::before {
+    content: " ";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 16px solid rgb(32, 114, 185);
+    margin-right: 10px;
+
+
+}
+
+.color-icon-sede {
+    fill: #fff;
+}
+
+.content-card-link-title {
+    text-align: left;
+    padding: 30px 0 10px 30px;
+    color: rgb(32, 114, 185);
+}
+
+
+/*Programas Nacionales*/
+.content-card-programas-nacionales {
+    background: rgb(237, 237, 237);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* #dock-container li:hover + li img,
+  #dock-container li.prev img {
+    -webkit-transform: scale(1.5);
+    margin: 0 1.5em;
+} */
+
+
+.link-access .pais {
+    background: url("../img/pais.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .pais:hover {
+    background: url("../img/paiscolor.svg") no-repeat;
+    background-position: center;
+}
+
+
+.link-access .foncodes {
+    background: url("../img/foncodes.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .foncodes:hover {
+    background: url("../img/foncodescolor.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .contigo {
+    background: url("../img/contigo.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .contigo:hover {
+    background: url("../img/contigocolor.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .juntos {
+    background: url("../img/juntos.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .juntos:hover {
+    background: url("../img/juntoscolor.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .qaliwarma {
+    background: url("../img/qaliwarma.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .qaliwarma:hover {
+    background: url("../img/qaliwarmacolor.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .cunamas {
+    background: url("../img/cunamas.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .cunamas:hover {
+    background: url("../img/cunamascolor.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .pension65 {
+    background: url("../img/pension65.svg") no-repeat;
+    background-position: center;
+}
+
+.link-access .pension65:hover {
+    background: url("../img/pension65color.svg") no-repeat;
+    background-position: center;
+}
+
+.footer {
+    background: rgb(157, 157, 156);
+}
+
+.footer div h5 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.punche {
+    max-width: 160px;
+    margin: 10px;
+}
+
+.bicentenario {
+    max-width: 220px;
+    margin: 10px;
+}
+
+
+
+
+
+
+/*caracteristicas del cuerpo*/
+body{
+    /* background-color: rgb(241, 240, 240); */
+    font-family: 'Montserrat', sans-serif;
+}
+/*banner marronHead*/
+.seccionHead{
+    background-color: rgb(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    padding: 0.9%;
+    font-size: 13px;
+    position: fixed;
+    top: 67px;
+    width: 100%;
+}
+.seccionHead ul{
+    list-style: none; 
+    display: flex;
+}
+.seccionHead ul li{
+    font-weight: 400;
+    transition: 0.3s;
+}
+.seccionHead ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 10px;
+    display: inline-block;
+    /*font-weight: 400;*/
+    font-size: 1vw;
+    letter-spacing: 0px;
+}
+.seccionHead ul li:hover{
+    font-weight: 700;
+    scale: 1.09;
+    padding-left: 10px;
+}
+.seccionHead ul li a:hover{
+    
+    border-radius: 13px;
+    background: rgb(194, 17, 17);
+    /*color: #5bb3ee;#4490f3;#0873bb#5bb3ee*/
+
+}
+.seccionHead ul li a i:hover{
+    scale: 1.3;
+}
+/*banner marron*/
+.seccion{
+    background-color: rgb(63, 34, 4, 0.7);
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    top: 0px;
+    width: 100%;
+}
+ul{
+    margin: 0;
+    /* list-style: none; */
+    padding: 0;
+    /* display: flex; */
+}
+.seccion ul{
+    list-style: none; 
+    display: flex;
+    padding: 10px 5px;
+}
+
+.borderRight{
+    border-right: 2px solid white;
+}
+.seccion ul li{
+    font-weight: 400;
+    text-wrap: nowrap;
+}
+.seccion ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 10px;
+    display: inline-block;
+    /*font-weight: 400;*/
+    font-size: 10px;
+    letter-spacing: 0px;
+}
+.seccion ul li a:hover{
+    color: #3884e7;
+
+}
+/* section ul li:last-child a{
+    color: white;
+    border-radius: 5px;
+} */
+.subtituloPaginaPrincipal{
+    background-color: #e30613;
+    border-radius: 13px;
+    margin-top: 1.5%;
+    padding: 0.6%; /* Ajusta el espaciado interno del botón */
+    /*color: white;  Cambia el color del texto según tus preferencias */
+    /*border: none;  Elimina el borde predeterminado */
+    /*cursor: pointer;  Cambia el cursor al pasar sobre el botón */
+    /*font-weight: bold;  Opcional: ajusta el peso de la fuente */
+    width: 64%;
+
+}
+/*Otros servicios*/
+.borderRightBlue{
+    border-right: 2px solid #4da4dd;
+}
+aside div ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+    display: inline-block;
+    font-size: small;
+}
+aside div ul li a img{
+    height: 65px;
+}
+
+li form input{
+    border: 0px solid white;
+    margin-right: 0%;
+    border-radius: 8px 0px 0px 8px;
+}
+li form button{
+    margin-left: 0px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: white;
+    border: 0px solid white;
+    width: 20px;
+}
+
+
+/*articuloPrincipal*/
+.articuloPrincipal{
+    background-color: rgba(172, 136, 136, 0);
+    color: white;
+
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    width: 50%;
+}
+.articuloPrincipal h1{
+    text-align: left;
+    font-size: 4.2vw;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 85%;
+}
+.articuloPrincipal h4{
+    text-align: left;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 3.2vw;
+    font-weight: 400;
+    line-height: 90%;
+}
+.articuloPrincipal h4 img{
+    width: 80%;
+}
+/*principales servicios*/
+.principalesServicios{
+    background-color: rgb(241, 240, 240);
+    color: red;
+    text-align: center;
+    padding: 0.7%;
+
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.principalesServicios h4{
+    margin: 2px;
+    font-weight: 700;
+    font-size: 37px;
+    /*letter-spacing: 16px;*/
+}
+/*principales servicios2*/
+.principalesServicios2{
+    background-color: #0873bb;
+    color: white;
+    text-align: center;
+    padding: 0.7%;
+
+    /*position: absolute;
+    bottom: 0px;
+    width: 100%;*/
+}
+.principalesServicios2 h4{
+    margin: 2px;
+    font-weight: 300;
+    font-size: 37px;
+    letter-spacing: 16px;
+}
+
+/*cse*/
+.cse{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cse article{
+
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    text-align: center;
+
+}
+.cse article h4{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.cse article li{
+    list-style: none;
+}
+.cse article li a img{
+    height: 40px;
+   /*  padding: 4px;
+    color: red; */
+
+}
+/*movilcse*/
+.movilcse{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.movilcse article{
+
+    position: absolute;
+    /* top: 10%;  */
+    left: 20%;
+    text-align: center;
+
+}
+.movilcse article h4{
+    color: white;
+    font-size: larger;
+    
+}
+.movilcse article li{
+    list-style: none;
+}
+.movilcse article li a img{
+    height: 25px;
+} 
+/* modelo de Integridad */
+.modeloIntegridad{
+    background-color: rgb(237, 237, 237);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modeloIntegridad h4{
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    padding-top: 5%;
+}
+.modeloIntegridadDiv{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.modeloIntegridadArticulo{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0% 3% 2% 3%;
+    border-radius: 6%;
+    /* padding-bottom: 12px; */
+    padding: 1% 3%;
+    transition: 0.3s;
+}
+.modeloIntegridadArticulo:hover{
+    background-color: white;
+    scale: 1.1;
+    /* box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2); */
+}
+.modeloIntegridadArticulo:hover div img.prender{
+    display: none;
+}
+.modeloIntegridadArticulo:hover div img.apagar{
+    display: flex; 
+}
+.modeloIntegridadArticulo li img{
+    width: 170px;
+    margin: 5px auto;
+
+}
+/* .modeloIntegridadArticulo li:first-child img{
+    width: 95px;
+
+} */
+.modeloIntegridadArticulo li a{
+    display: flex;
+    flex-direction: column;
+
+}
+/* fin modelo de Integridad */
+.contenedor{
+    position: relative;
+}
+.apagar{
+    display: none;
+}
+.iconoImg{
+    height: 40px;
+}
+
+/*Temas Priorizados*/
+.temasPriorizados{
+    background-color: rgb(23,115,186);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.temasPriorizados h4{
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 2%;
+}
+.temasPriorizadosDiv{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.temasPriorizadosArticulo{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 3% 0% 4% 0%;
+     border-radius: 6%;
+    /*padding-bottom: 12px; */
+    padding: 1% 2%;
+    transition: 0.3s;
+}
+.temasPriorizadosArticulo:hover{
+    /* background-color: white; */
+    scale: 1.1;
+    /* box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2); */
+}
+.temasPriorizadosArticulo:hover div img.prender{
+    display: none;
+}
+.temasPriorizadosArticulo:hover div img.apagar{
+    display: flex; 
+}
+.temasPriorizadosArticulo li img{
+    width: 210px;
+    margin: 5px auto;
+
+}
+.temasPriorizadosArticulo li a{
+    display: flex;
+    flex-direction: column;
+
+}
+/* fin Temas Priorizados*/
+
+/*footer*/
+footer{
+    background-color: rgb(87,87,86);
+    color: #fff;
+    width: 100%;
+
+}
+.contactanos{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+footer div h5{
+    padding: 2%;
+    text-align: left;
+}
+.direccion ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    
+}
+.direccion ul li{
+    display: flex;
+}
+.direccionFooter{
+    padding: 2%;
+}
+.direccionFooter ul{
+    display: block;
+    font-size: 0.8vw;
+}
+.botonesFooter ul {
+    display: flex;
+    padding: 2%;
+}
+.botonesFooter ul a{
+    margin: 0.5%;
+}
+.botonesFooter ul p{
+    padding-top: 13px;
+}
+.iconoImgRedesSociales{
+    height: 35px;
+}
+/*fin footer*/
