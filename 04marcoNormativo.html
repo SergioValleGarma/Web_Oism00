@@ -1,129 +1,169 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Observatorio de Integridad del Sector MIDIS</title>
+    <link rel="shortcut icon" href="img/midis_favicon.png" />
+    <link
+      href="css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style04.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Observatorio de Integridad del Sector MIDIS </title>
-  <link rel="shortcut icon" href="img/midis_favicon.png">
-  <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="css/style04.css">
-
-</head>
-
-<body>
-
-
-  <nav class="navbar navbar-expand-md  d-none d-md-block shadow bg-white navbar-dark sticky-top " style="border-bottom: 2px solid rgb(98, 105, 110);">
-    <div class="container">
-      <div class="w-100 d-flex justify-content-between align-items-center">
-        <div class="d-flex">
-          <div class="nav-icon-insignia"><img src="img/00Cabecera/midis.png" style="height: 35px;"></div>
-        </div>
-        <div class="d-flex">
-          <div class="nav-icon-insignia"><img src="img/00Cabecera/punche.png" style="height: 50px;"></div>
+  <body>
+    <nav
+      class="navbar navbar-expand-md d-none d-md-block shadow bg-white navbar-dark sticky-top"
+      style="border-bottom: 2px solid rgb(98, 105, 110)"
+    >
+      <div class="container">
+        <div class="w-100 d-flex justify-content-between align-items-center">
+          <div class="d-flex">
+            <div class="nav-icon-insignia">
+              <img src="img/00Cabecera/midis.png" style="height: 35px" />
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="nav-icon-insignia">
+              <img src="img/00Cabecera/punche.png" style="height: 50px" />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div>
-      <section class="seccionHead">
-        <ul>
+      <div>
+        <section class="seccionHead">
+          <ul>
+            <li class="borderRight">
+              <a href="home.html">
+                <i class="fa-solid fa-house"></i>
+                <!-- <img class="iconoImg" src="img/00Cabecera/01IconoHome.png" alt=""> -->
+              </a>
+            </li>
+            <li class="borderRight">
+              <a href="01quienesSomos.html">¿QUIÉNES SOMOS?</a>
+            </li>
+            <!-- <li class="borderRight">
+            <a href="02acionesIntegridad.html">ACCIONES DE INTEGRIDAD</a>
+          </li> -->
+            <li class="borderRight">
+              <a href="03observatorio.html">OBSERVATORIO</a>
+            </li>
+
+            <li class="borderRight">
+              <a href="05modeloIntegridad.html">MODELO DE INTEGRIDAD</a>
+            </li>
+            <li class="borderRight">
+              <a href="06temasPriorizados.html">TEMAS PRIORIZADOS</a>
+            </li>
+            <li class="borderRight">
+              <a href="07Integrinotas.html">INTEGRINOTAS MIDIS</a>
+            </li>
+            <li>
+              <a href="04marcoNormativo.html">MARCO NORMATIVO</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </nav>
+
+    <nav
+      class="navbar d-md-none navbar-expand-sm bg-white navbar-dark sticky-top"
+    >
+      <div
+        class="container d-flex justify-content-between align-items-center"
+        style="flex-wrap: nowrap"
+      >
+        <img
+          src="img/00Cabecera/midis.png"
+          style="width: 130px"
+          alt=""
+          srcset=""
+        />
+        <img
+          src="img/00Cabecera/punche.png"
+          style="width: 70px"
+          alt=""
+          srcset=""
+        />
+      </div>
+    </nav>
+    <div
+      class="shadow d-md-none"
+      style="
+        background: rgb(204, 187, 175);
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+      "
+    >
+      <section class="seccion">
+        <ul style="width: 100%; overflow-x: auto">
           <li class="borderRight">
-            <a href="home.html">
-              <i class="fa-solid fa-house"></i>
-              <!-- <img class="iconoImg" src="img/00Cabecera/01IconoHome.png" alt=""> -->
-            </a>
+            <a href="home.html"><i class="fa-solid fa-house"></i></a>
           </li>
           <li class="borderRight">
             <a href="01quienesSomos.html">¿QUIÉNES SOMOS?</a>
           </li>
-          <li class="borderRight">
-            <a href="02acionesIntegridad.html">ACCIONES DE INTEGRIDAD</a>
-          </li>
+          <!-- <li class="borderRight">
+              <a href="02acionesIntegridad.html">ACCIONES DE INTEGRIDAD</a>
+          </li> -->
           <li class="borderRight">
             <a href="03observatorio.html">OBSERVATORIO</a>
           </li>
-          <li class="borderRight">
-            <a href="04marcoNormativo.html">MARCO NORMATIVO</a>
-          </li>
+
           <li class="borderRight">
             <a href="05modeloIntegridad.html">MODELO DE INTEGRIDAD</a>
           </li>
           <li class="borderRight">
             <a href="06temasPriorizados.html">TEMAS PRIORIZADOS</a>
           </li>
-          <li>
+          <li class="borderRight">
             <a href="07Integrinotas.html">INTEGRINOTAS MIDIS</a>
-        </li>
-      </ul>
+          </li>
+          <li>
+            <a href="04marcoNormativo.html">MARCO NORMATIVO</a>
+          </li>
+        </ul>
       </section>
     </div>
-  </nav>
+    <!-- Close Header -->
 
-
-  <nav class="navbar d-md-none  navbar-expand-sm bg-white navbar-dark sticky-top">
-    <div class="container d-flex justify-content-between align-items-center" style="flex-wrap: nowrap;">
-      <img src="img/00Cabecera/midis.png" style="width: 130px;" alt="" srcset="">
-      <img src="img/00Cabecera/punche.png" style="width: 70px;" alt="" srcset="">
-    </div>
-  </nav>
-  <div class="shadow d-md-none"
-        style="background: rgb(204, 187, 175); width: 100%;position: fixed;z-index: 10;">
-        <section class="seccion">
-            <ul style="width: 100%; overflow-x: auto;">
-                <li class="borderRight">
-                    <a href="home.html"><i class="fa-solid fa-house"></i></a>
-                </li>
-                <li class="borderRight">
-                    <a href="01quienesSomos.html">¿QUIÉNES SOMOS?</a>
-                </li>
-                <li class="borderRight">
-                    <a href="02acionesIntegridad.html">ACCIONES DE INTEGRIDAD</a>
-                </li>
-                <li class="borderRight">
-                    <a href="03observatorio.html">OBSERVATORIO</a>
-                </li>
-                <li class="borderRight">
-                    <a href="04marcoNormativo.html">MARCO NORMATIVO</a>
-                </li>
-                <li class="borderRight">
-                    <a href="05modeloIntegridad.html">MODELO DE INTEGRIDAD</a>
-                </li>
-                <li class="borderRight">
-                    <a href="06temasPriorizados.html">TEMAS PRIORIZADOS</a>
-                </li>
-                <li>
-                    <a href="07Integrinotas.html">INTEGRINOTAS MIDIS</a>
-                </li>
-            </ul>
-        </section>
-    </div>
-  <!-- Close Header -->
-
-  <!-- Start Banner Hero -->
-  <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block d-lg-block">
-    <!-- <div class="carousel-indicators">
+    <!-- Start Banner Hero -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide d-none d-md-block d-lg-block"
+    >
+      <!-- <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div> -->
-    <div class="carousel-inner">
-      <div class="carousel-item active contenedor">
-        
-        <img src="img/04marcoNormativo/01Head/01MarcoNormativo.png" class="d-block w-100" alt="...">
-        <div class="articuloPrincipal">
-          <h4><strong>MARCO NORMATIVO</strong>
-            <div class="subtituloPaginaPrincipal"></div>
-        </h4>
-        </div>
-        <!-- <div class="principalesServicios">
+      <div class="carousel-inner">
+        <div class="carousel-item active contenedor">
+          <img
+            src="img/04marcoNormativo/01Head/01MarcoNormativo.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="articuloPrincipal">
+            <h4>
+              <strong>MARCO NORMATIVO</strong>
+              <div class="subtituloPaginaPrincipal"></div>
+            </h4>
+          </div>
+          <!-- <div class="principalesServicios">
           <h4><strong>MINISTERIO DE DESARROLLO E INCLUSIÓN SOCIAL - MIDIS</strong></h4>
         </div> -->
+        </div>
       </div>
-    </div>
-    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
@@ -131,152 +171,566 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button> -->
-  </div>
-
-  <div class="marcoNormativo">
-
-    <div class="marcoNormativoDiv">
-      <div class="marcoNormativoBotonRojo" style="width: 13%;">Internacional</div>
-      <div class="marcoNormativoLista">
-        <ul>
-          <li><a href="https://www.gob.pe/institucion/mpfn/informes-publicaciones/1520431-convencion-de-las-naciones-unidas-contra-la-corrupcion" target="_blank" rel="noopener noreferrer">Convención de las Naciones Unidas contra la Corrupción.</a></li>
-          <li><a href="https://www.oas.org/es/sla/ddi/docs/tratados_multilaterales_interamericanos_B-58_contra_Corrupcion.pdf" target="_blank" rel="noopener noreferrer">Convención Interamericana contra la Corrupción.</a></li>
-          <li><a href="https://www.gob.pe/institucion/rree/informes-publicaciones/4089018-convencion-para-combatir-el-cohecho-de-servidores-publicos-extranjeros-en-transacciones-comerciales-internacionales" target="_blank" rel="noopener noreferrer">Convención para Combatir el Cohecho de Servidores Públicos.</a></li>
-        </ul>
-      </div>
     </div>
 
-    <div class="marcoNormativoDiv">
-      <div class="marcoNormativoBotonRojo" style="width: 10%;">Nacional</div>
-
-      <div class="marcoNormativoLista">
-        <div class="marcoNormativoBotonAzul" style="width: 30%;">Marco Normativo contra la Corrupción </div>
-        <ul>
-          <li><a href="https://www.gob.pe/institucion/pcm/informes-publicaciones/33937-politica-nacional-de-integridad-y-lucha-contra-la-corrupcion" target="_blank" rel="noopener noreferrer">Política Nacional de Integridad y Lucha contra la Corrupción.</a></li>
-          <li><a href="https://www.gob.pe/institucion/presidencia/informes-publicaciones/1090599-plan-nacional-de-integridad-y-lucha-contra-la-corrupcion-2018-2021" target="_blank" rel="noopener noreferrer">Plan Nacional de Integridad y Lucha contra la Corrupción 2018 2021.</a></li>
-          <li><a href="https://spij.minjus.gob.pe/spij-ext-web/#/detallenorma/H1077281" target="_blank" rel="noopener noreferrer">Decreto Supremo Nº 046-2013-PCM, que aprueba la Estrategia Anticorrupción del Poder Ejecutivo.</a></li>
-          <li><a href="https://busquedas.elperuano.pe/dispositivo/NL/2020163-1" target="_blank" rel="noopener noreferrer">Decreto Supremo Nº 180-2021-PCM: Estrategia de Integridad del Poder Ejecutivo al 2022 para la Prevención de Actos de Corrupción.</a></li>
-        </ul>
+    <div class="marcoNormativo">
+      <div class="marcoNormativoDiv">
+        <div class="marcoNormativoBotonRojo" style="width: 13%">
+          Internacional
+        </div>
+        <div class="marcoNormativoLista">
+          <ul>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/mpfn/informes-publicaciones/1520431-convencion-de-las-naciones-unidas-contra-la-corrupcion"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Convención de las Naciones Unidas contra la Corrupción.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.oas.org/es/sla/ddi/docs/tratados_multilaterales_interamericanos_B-58_contra_Corrupcion.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Convención Interamericana contra la Corrupción.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/rree/informes-publicaciones/4089018-convencion-para-combatir-el-cohecho-de-servidores-publicos-extranjeros-en-transacciones-comerciales-internacionales"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Convención para Combatir el Cohecho de Servidores Públicos.</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
 
+      <div class="marcoNormativoDiv">
+        <div class="marcoNormativoBotonRojo" style="width: 10%">Nacional</div>
 
-      <div class="marcoNormativoLista">
-        <div class="marcoNormativoBotonAzul" style="width: 40%;">Marco Normativo sobre el Modelo de Integridad </div>
-        <ul>
-          <li><a href="https://busquedas.elperuano.pe/dispositivo/NL/2096431-2" target="_blank" rel="noopener noreferrer">Ley Nº 31564 que regula la prevención y mitigación del conflicto de intereses en el acceso y salida del personal del servicio público.</a></li>
-          <li><a href="https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/442179-28024" target="_blank" rel="noopener noreferrer">Ley Nº 28024 y su Reglamento sobre regulación de la Gestión de Intereses en la Administración Pública.</a></li>
-          <li><a href="https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/2030677-31227" target="_blank" rel="noopener noreferrer">Ley Nº 31227 que establece la obligatoriedad de la presentación de la Declaración Jurada de Intereses en el sector público.</a></li>
-          <li><a href="recursos/04MarcoNormativo/00mesicic4_per_ley27482.pdf" target="_blank" rel="noopener noreferrer">Ley Nº 27482 que establece la regulación de la publicación de la declaración jurada de ingresos y de bienes y rentas de los funcionarios y servidores públicos del estado.</a></li>
-          <li><a href="https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/828190-27815" target="_blank" rel="noopener noreferrer">Ley Nº 27815, su modificatoria y su Reglamento sobre el Código de Ética de la Función Pública.</a></li>
-          <li><a href="recursos/04MarcoNormativo/01Ley-27785.pdf" target="_blank" rel="noopener noreferrer">Ley Nº 27785, Ley Orgánica del Sistema Nacional de Control y de la Contraloría General de la República.</a></li>
-          <li><a href="https://www.gob.pe/institucion/minjus/normas-legales/2062197-002-2020-jus" target="_blank" rel="noopener noreferrer">Decreto Legislativo Nº 1327 y su reglamento aprobado por Decreto Supremo Nº 010-2017-PCM, modificado por el Decreto Supremo Nº 002-2020-JUS establece los criterios mínimos para la gestión de denuncias en el Estado peruano, medidas de protección para el denunciante de actos de corrupción y sanción a las denuncias realizadas de mala fe.</a></li>
-          <li><a href="https://www.gob.pe/institucion/pcm/normas-legales/3111-042-2018-pcm" target="_blank" rel="noopener noreferrer">Decreto Supremo Nº 042-2018-PCM sobre mecanismos de promoción de la integridad y creación de la Secretaría de Integridad Pública.</a></li>
-          <li><a href="https://www.gob.pe/institucion/pcm/normas-legales/4440660-082-2023-pcm" target="_blank" rel="noopener noreferrer">Decreto Supremo Nº 082-2023-PCM que aprueba el Reglamento de la Ley N° 31564, Ley de prevención y mitigación del conflicto de intereses en el acceso y salida de personal del servicio público.</a></li>
-          <li><a href="https://www.gob.pe/institucion/presidencia/normas-legales/391589-021-2019-jus" target="_blank" rel="noopener noreferrer">Decreto Supremo Nº 021-2019-JUS sobre la última versión del Texto Único Ordenado de la Ley de Transparencia y Acceso a la Información Pública.</a></li>
-          <li><a href="https://www.gob.pe/institucion/pcm/normas-legales/3829136-01-2023-pcm-sip" target="_blank" rel="noopener noreferrer">Resolución de Secretaría de Integridad Pública Nº 01-2023-PCM/SIP que aprueba la  “Guía para la gestión de riesgos que afectan la integridad pública”.</a></li>
-          <li><a href="https://www.gob.pe/institucion/pcm/normas-legales/4106023-003-2023-pcm-sip" target="_blank" rel="noopener noreferrer">Resolución de Secretaría de Integridad Pública Nº 003-2023-PCM/SIP que aprueba los parámetros para el proceso de evaluación del avance en la implementación del Modelo de Integridad, conforme al Estándar de Integridad 2023.</a></li>
-          <li><a href="https://www.gob.pe/institucion/pcm/normas-legales/4300618-004-2023-pcm-sip" target="_blank" rel="noopener noreferrer">Resolución de Secretaría de Integridad Pública Nº 004-2023-PCM/SIP que modifica los numerales 5.1.3 y 5.1.4 de la Directiva N° 001-2022-PCM/SIP “Lineamientos para asegurar la integridad y transparencia en las gestiones de intereses y otras actividades a través del Registro de Visitas en Línea y Registro de Agendas Oficiales”.</a></li>
-          <li><a href="https://www.gob.pe/institucion/pcm/normas-legales/5288402-001-2024-pcm-sip " target="_blank" rel="noopener noreferrer">Resolución de Secretaría de Integridad Pública N.° 001-2024-PCM/SIP que aprueba la Directiva N° 001-2024-PCM/SIP “Directiva para la incorporación y ejercicio de la función de integridad en las entidades de la administración pública”.</a></li>
-          <li><a href="https://www.gob.pe/institucion/pcm/normas-legales/5517066-003-2024-pcm-sip" target="_blank" rel="noopener noreferrer">Resolución de Secretaría de Integridad Pública N.° 003-2024-PCM/SIP que aprueba el “Protocolo de Asistencias Técnicas”.</a></li>
-          <li><a href="https://www.gob.pe/institucion/pcm/normas-legales/5845043-004-2024-pcm-sip" target="_blank" rel="noopener noreferrer">Resolución de Secretaría de Integridad Pública N.° 004-2024-PCM/SIP que modifica la directiva de gestión de denuncias.</a></li>
-          <li><a href="https://www.gob.pe/institucion/pcm/normas-legales/5833653-005-2024-pcm-sip" target="_blank" rel="noopener noreferrer">Resolución de Secretaría de Integridad Pública Nº 005-2024-PCM/SIP que aprueba la Metodología de determinación del ICP y las Guías de evaluación del Modelo de Integridad etapas N° 1, 2 y 3.</a></li>
+        <div class="marcoNormativoLista">
+          <div class="marcoNormativoBotonAzul" style="width: 30%">
+            Marco Normativo contra la Corrupción
+          </div>
+          <ul>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/informes-publicaciones/33937-politica-nacional-de-integridad-y-lucha-contra-la-corrupcion"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Política Nacional de Integridad y Lucha contra la
+                Corrupción.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/presidencia/informes-publicaciones/1090599-plan-nacional-de-integridad-y-lucha-contra-la-corrupcion-2018-2021"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Plan Nacional de Integridad y Lucha contra la Corrupción 2018
+                2021.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://spij.minjus.gob.pe/spij-ext-web/#/detallenorma/H1077281"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Decreto Supremo Nº 046-2013-PCM, que aprueba la Estrategia
+                Anticorrupción del Poder Ejecutivo.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://busquedas.elperuano.pe/dispositivo/NL/2020163-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Decreto Supremo Nº 180-2021-PCM: Estrategia de Integridad del
+                Poder Ejecutivo al 2022 para la Prevención de Actos de
+                Corrupción.</a
+              >
+            </li>
+          </ul>
+        </div>
 
-          <li><a href="https://www.gob.pe/institucion/contraloria/normas-legales/5798281-319-2024-cg" target="_blank" rel="noopener noreferrer">Resolución de Contraloría Nº 319-2024-CG que modifica los numerales 7.5.1 y 10, y del Anexo Nº011-2019-CG/INTEG “Implementación del Sistema de Control Interno en el Banco Central de Reserva del Perú, Petroperú S.A, Superintendencia de Banca, Seguros y AFP, Fondo Nacional de Financiamiento de las Actividad Empresarial del Estado y Entidades que se encuentran bajo la Supervisión de ambas”, aprobada mediante Resolución de Contraloría Nº 409-2019-CG, modificada mediante Resoluciones de Contraloría Nº130-2020-CG y Nº 041-2024-CG.</a></li>
-          <li><a href="https://www.gob.pe/institucion/contraloria/normas-legales/5798371-320-2024-cg" target="_blank" rel="noopener noreferrer">Resolución de Contraloría Nº 320-2024-CG, que modifica el literal k. del numeral 6.1, el literal a, del numeral 6.5.1, los numerales 6.5.3 y 7.1, el literal c, del numeral 7.2.2, el numeral 7.3, el literal a. del numeral 7.3.1, los numerales 7.3.2, 7.3.3, 7.4.2 y 10, el Anexo Nº1, el Anexo Nº2, el Anexo Nº3, el Anexo Nº5, el Anexo Nº6, el Anexo Nº8, el Anexo Nº9, y el Anexo Nº10 e incorporar la Novena Disposición Complementaria Final y el Anexo Nº12 a la Directiva Nº006-2019-CG/INTEG “Implementación del Sistema de Control Interno de las entidades del Estado”, aprobada mediante Resolución de Contraloría Nº146-2019-CG, modificada mediante 2023. CG y Nº041-2024-CG.</a></li>
-          <li><a href="https://www.gob.pe/institucion/contraloria/normas-legales/5798423-321-2024-cg" target="_blank" rel="noopener noreferrer">Resolución de Contraloría Nº 321-2024-CG, que aprueba la Directiva Nº011-2024-CG/PREVI. “Evaluación de la Implementación del Sistema de Control Interno a cargo de la Contraloría General de la República y de los Órganos de Control Institucional.</a></li>
-          
-          <li><a href="https://www.gob.pe/institucion/pcm/normas-legales/1999180-002-2021-pcm-sip" target="_blank" rel="noopener noreferrer">Directiva N° 002-2021-PCM/SIP que aprueba “Lineamientos para fortalecer una cultura de integridad en las entidades del sector público”.</a></li>
-          <li><a href="https://www.gob.pe/institucion/pcm/colecciones/36094-incorporacion-de-la-funcion-de-integridad" target="_blank" rel="noopener noreferrer">Directiva Nº 001-2024-PCM/SIP “Directiva para la incorporación y ejercicio de la función de integridad en las entidades de la administración pública”.</a></li>
-          <li><a href="recursos/04MarcoNormativo/03Directiva 001-2022-PCM-SIP.pdf" target="_blank" rel="noopener noreferrer">Directiva N° 001-2022-PCM/SIP “Lineamientos para asegurar la integridad y transparencia en las gestiones de intereses y otras actividades a través del Registro de Visitas en Línea y Registro de Agendas Oficiales”.</a></li>
-          <li><a href="recursos/04MarcoNormativo/04INTEG.pdf.pdf" target="_blank" rel="noopener noreferrer">Directiva Nº 006-2019-CGR y su modificatoria: nueva Directiva para la implementación del Sistema de Control Interno, y sus modificatorias como la RC Nº 130-2020-CG, la RC Nº 093-2021-CG y la RC Nº 095-2022-CG.</a></li>
-          
-        </ul>
+        <div class="marcoNormativoLista">
+          <div class="marcoNormativoBotonAzul" style="width: 40%">
+            Marco Normativo sobre el Modelo de Integridad
+          </div>
+          <ul>
+            <li>
+              <a
+                href="https://busquedas.elperuano.pe/dispositivo/NL/2096431-2"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ley Nº 31564 que regula la prevención y mitigación del
+                conflicto de intereses en el acceso y salida del personal del
+                servicio público.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/442179-28024"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ley Nº 28024 y su Reglamento sobre regulación de la Gestión de
+                Intereses en la Administración Pública.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/2030677-31227"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ley Nº 31227 que establece la obligatoriedad de la presentación
+                de la Declaración Jurada de Intereses en el sector público.</a
+              >
+            </li>
+            <li>
+              <a
+                href="recursos/04MarcoNormativo/00mesicic4_per_ley27482.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ley Nº 27482 que establece la regulación de la publicación de
+                la declaración jurada de ingresos y de bienes y rentas de los
+                funcionarios y servidores públicos del estado.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/828190-27815"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ley Nº 27815, su modificatoria y su Reglamento sobre el Código
+                de Ética de la Función Pública.</a
+              >
+            </li>
+            <li>
+              <a
+                href="recursos/04MarcoNormativo/01Ley-27785.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ley Nº 27785, Ley Orgánica del Sistema Nacional de Control y de
+                la Contraloría General de la República.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/minjus/normas-legales/2062197-002-2020-jus"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Decreto Legislativo Nº 1327 y su reglamento aprobado por
+                Decreto Supremo Nº 010-2017-PCM, modificado por el Decreto
+                Supremo Nº 002-2020-JUS establece los criterios mínimos para la
+                gestión de denuncias en el Estado peruano, medidas de protección
+                para el denunciante de actos de corrupción y sanción a las
+                denuncias realizadas de mala fe.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/normas-legales/3111-042-2018-pcm"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Decreto Supremo Nº 042-2018-PCM sobre mecanismos de promoción
+                de la integridad y creación de la Secretaría de Integridad
+                Pública.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/normas-legales/4440660-082-2023-pcm"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Decreto Supremo Nº 082-2023-PCM que aprueba el Reglamento de la
+                Ley N° 31564, Ley de prevención y mitigación del conflicto de
+                intereses en el acceso y salida de personal del servicio
+                público.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/presidencia/normas-legales/391589-021-2019-jus"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Decreto Supremo Nº 021-2019-JUS sobre la última versión del
+                Texto Único Ordenado de la Ley de Transparencia y Acceso a la
+                Información Pública.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/normas-legales/3829136-01-2023-pcm-sip"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución de Secretaría de Integridad Pública Nº
+                01-2023-PCM/SIP que aprueba la “Guía para la gestión de riesgos
+                que afectan la integridad pública”.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/normas-legales/4106023-003-2023-pcm-sip"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución de Secretaría de Integridad Pública Nº
+                003-2023-PCM/SIP que aprueba los parámetros para el proceso de
+                evaluación del avance en la implementación del Modelo de
+                Integridad, conforme al Estándar de Integridad 2023.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/normas-legales/4300618-004-2023-pcm-sip"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución de Secretaría de Integridad Pública Nº
+                004-2023-PCM/SIP que modifica los numerales 5.1.3 y 5.1.4 de la
+                Directiva N° 001-2022-PCM/SIP “Lineamientos para asegurar la
+                integridad y transparencia en las gestiones de intereses y otras
+                actividades a través del Registro de Visitas en Línea y Registro
+                de Agendas Oficiales”.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/normas-legales/5288402-001-2024-pcm-sip "
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución de Secretaría de Integridad Pública N.°
+                001-2024-PCM/SIP que aprueba la Directiva N° 001-2024-PCM/SIP
+                “Directiva para la incorporación y ejercicio de la función de
+                integridad en las entidades de la administración pública”.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/normas-legales/5517066-003-2024-pcm-sip"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución de Secretaría de Integridad Pública N.°
+                003-2024-PCM/SIP que aprueba el “Protocolo de Asistencias
+                Técnicas”.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/normas-legales/5845043-004-2024-pcm-sip"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución de Secretaría de Integridad Pública N.°
+                004-2024-PCM/SIP que modifica la directiva de gestión de
+                denuncias.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/normas-legales/5833653-005-2024-pcm-sip"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución de Secretaría de Integridad Pública Nº
+                005-2024-PCM/SIP que aprueba la Metodología de determinación del
+                ICP y las Guías de evaluación del Modelo de Integridad etapas N°
+                1, 2 y 3.</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/contraloria/normas-legales/5798281-319-2024-cg"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución de Contraloría Nº 319-2024-CG que modifica los
+                numerales 7.5.1 y 10, y del Anexo Nº011-2019-CG/INTEG
+                “Implementación del Sistema de Control Interno en el Banco
+                Central de Reserva del Perú, Petroperú S.A, Superintendencia de
+                Banca, Seguros y AFP, Fondo Nacional de Financiamiento de las
+                Actividad Empresarial del Estado y Entidades que se encuentran
+                bajo la Supervisión de ambas”, aprobada mediante Resolución de
+                Contraloría Nº 409-2019-CG, modificada mediante Resoluciones de
+                Contraloría Nº130-2020-CG y Nº 041-2024-CG.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/contraloria/normas-legales/5798371-320-2024-cg"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución de Contraloría Nº 320-2024-CG, que modifica el
+                literal k. del numeral 6.1, el literal a, del numeral 6.5.1, los
+                numerales 6.5.3 y 7.1, el literal c, del numeral 7.2.2, el
+                numeral 7.3, el literal a. del numeral 7.3.1, los numerales
+                7.3.2, 7.3.3, 7.4.2 y 10, el Anexo Nº1, el Anexo Nº2, el Anexo
+                Nº3, el Anexo Nº5, el Anexo Nº6, el Anexo Nº8, el Anexo Nº9, y
+                el Anexo Nº10 e incorporar la Novena Disposición Complementaria
+                Final y el Anexo Nº12 a la Directiva Nº006-2019-CG/INTEG
+                “Implementación del Sistema de Control Interno de las entidades
+                del Estado”, aprobada mediante Resolución de Contraloría
+                Nº146-2019-CG, modificada mediante 2023. CG y Nº041-2024-CG.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/contraloria/normas-legales/5798423-321-2024-cg"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución de Contraloría Nº 321-2024-CG, que aprueba la
+                Directiva Nº011-2024-CG/PREVI. “Evaluación de la Implementación
+                del Sistema de Control Interno a cargo de la Contraloría General
+                de la República y de los Órganos de Control Institucional.</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/normas-legales/1999180-002-2021-pcm-sip"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Directiva N° 002-2021-PCM/SIP que aprueba “Lineamientos para
+                fortalecer una cultura de integridad en las entidades del sector
+                público”.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/pcm/colecciones/36094-incorporacion-de-la-funcion-de-integridad"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Directiva Nº 001-2024-PCM/SIP “Directiva para la incorporación
+                y ejercicio de la función de integridad en las entidades de la
+                administración pública”.</a
+              >
+            </li>
+            <li>
+              <a
+                href="recursos/04MarcoNormativo/03Directiva 001-2022-PCM-SIP.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Directiva N° 001-2022-PCM/SIP “Lineamientos para asegurar la
+                integridad y transparencia en las gestiones de intereses y otras
+                actividades a través del Registro de Visitas en Línea y Registro
+                de Agendas Oficiales”.</a
+              >
+            </li>
+            <li>
+              <a
+                href="recursos/04MarcoNormativo/04INTEG.pdf.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Directiva Nº 006-2019-CGR y su modificatoria: nueva Directiva
+                para la implementación del Sistema de Control Interno, y sus
+                modificatorias como la RC Nº 130-2020-CG, la RC Nº 093-2021-CG y
+                la RC Nº 095-2022-CG.</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="marcoNormativoLista">
+          <div class="marcoNormativoBotonAzul" style="width: 25%">
+            Marco Normativo Sectorial
+          </div>
+          <ul>
+            <li>
+              <a
+                href="https://cdn.www.gob.pe/uploads/document/file/17164/RM_125_2012MIDIS.pdf?v=1530724897"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Directiva Nº 003-2012-MIDIS: Incentivos y estímulos para el
+                cumplimiento del Código de Ética de la Función Pública en el
+                Ministerio de Desarrollo e Inclusión Social.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://busquedas.elperuano.pe/dispositivo/NL/1603920-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Directiva Nº 002-2018-MIDIS: Disposiciones sobre la Neutralidad
+                y Transparencia de los servidores civiles del Ministerio de
+                Desarrollo e Inclusión Social y sus Programas Nacionales
+                adscritos durante los Procesos Electorales.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cdn.www.gob.pe/uploads/document/file/1925241/RM_096_2021MIDIS_completo.pdf.pdf?v=1622729168"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Directiva Nº 007-2021-MIDIS: Directiva que regula la Atención
+                de Solicitudes de Acceso a la Información Pública en el
+                Ministerio de Desarrollo e Inclusión Social.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://cdn.www.gob.pe/uploads/document/file/2864350/RM_037_2022MIDIS_completo.pdf.pdf?v=1646233482"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Directiva Nº 001-2022-MIDIS: Directiva que regula la Atención
+                de Denuncias por Presuntos Actos de Corrupción y Medidas de
+                Protección al Denunciante en el Ministerio de Desarrollo e
+                Inclusión Social.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/midis/informes-publicaciones/2555954-codigo-de-etica-y-conducta"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución Ministerial Nº 215-2020-MIDIS: Código de Ética y
+                Conducta del MIDIS y sus Programas Sociales.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/midis/normas-legales/4258271-104-2023-midis"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución Ministerial Nº 104-2023-MIDIS: Creación de la Red de
+                Integridad del sector Desarrollo e Inclusión Social.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/midis/normas-legales/4941055-231-2023-midis"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución Ministerial Nº 231-2023-MIDIS: Acciones de
+                Integridad 2024 del MIDIS.</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.gob.pe/institucion/midis/normas-legales/6248554-184-2024-midis"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resolución Ministerial N°D000184-2024-MIDIS: Aprueba la
+                herramienta denominada "Observatorio de Integridad del Sector
+                Midis".</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="marcoNormativoLista">
-        <div class="marcoNormativoBotonAzul" style="width: 25%;">Marco Normativo Sectorial</div>
-        <ul>
-          <li><a href="https://cdn.www.gob.pe/uploads/document/file/17164/RM_125_2012MIDIS.pdf?v=1530724897" target="_blank" rel="noopener noreferrer">Directiva Nº 003-2012-MIDIS: Incentivos y estímulos para el cumplimiento del Código de Ética de la Función Pública en el Ministerio de Desarrollo e Inclusión Social.</a></li>
-          <li><a href="https://busquedas.elperuano.pe/dispositivo/NL/1603920-1" target="_blank" rel="noopener noreferrer">Directiva Nº 002-2018-MIDIS: Disposiciones sobre la Neutralidad y Transparencia de los servidores civiles del Ministerio de Desarrollo e Inclusión Social y sus Programas Nacionales adscritos durante los Procesos Electorales.</a></li>
-          <li><a href="https://cdn.www.gob.pe/uploads/document/file/1925241/RM_096_2021MIDIS_completo.pdf.pdf?v=1622729168" target="_blank" rel="noopener noreferrer">Directiva Nº 007-2021-MIDIS: Directiva que regula la Atención de Solicitudes de Acceso a la Información Pública en el Ministerio de Desarrollo e Inclusión Social.</a></li>
-          <li><a href="https://cdn.www.gob.pe/uploads/document/file/2864350/RM_037_2022MIDIS_completo.pdf.pdf?v=1646233482" target="_blank" rel="noopener noreferrer">Directiva Nº 001-2022-MIDIS: Directiva que regula la Atención de Denuncias por Presuntos Actos de Corrupción y Medidas de Protección al Denunciante en el Ministerio de Desarrollo e Inclusión Social.</a></li>
-          <li><a href="https://www.gob.pe/institucion/midis/informes-publicaciones/2555954-codigo-de-etica-y-conducta" target="_blank" rel="noopener noreferrer">Resolución Ministerial Nº 215-2020-MIDIS: Código de Ética y Conducta del MIDIS y sus Programas Sociales.</a></li>
-          <li><a href="https://www.gob.pe/institucion/midis/normas-legales/4258271-104-2023-midis" target="_blank" rel="noopener noreferrer">Resolución Ministerial Nº 104-2023-MIDIS: Creación de la Red de Integridad del sector Desarrollo e Inclusión Social.</a></li>
-          <li><a href="https://www.gob.pe/institucion/midis/normas-legales/4941055-231-2023-midis" target="_blank" rel="noopener noreferrer">Resolución Ministerial Nº 231-2023-MIDIS: Acciones de Integridad 2024 del MIDIS.</a></li>
-          <li><a href="https://www.gob.pe/institucion/midis/normas-legales/6248554-184-2024-midis" target="_blank" rel="noopener noreferrer">Resolución Ministerial N°D000184-2024-MIDIS: Aprueba la herramienta denominada "Observatorio de Integridad del Sector Midis".</a></li>
-        </ul>
-      </div>
-
     </div>
+    <!-- footer -->
+    <footer class="contenedor" style="overflow-y: auto">
+      <div class="contactanos">
+        <div class="titulo">
+          <h5><strong>Contáctanos</strong></h5>
+        </div>
 
-  </div>
-  <!-- footer -->
-  <footer class="contenedor" style="overflow-y: auto;">
-    <div class="contactanos">
-      <div class="titulo"><h5><strong>Contáctanos</strong></h5></div>
-      
-      <div class="direccion">
+        <div class="direccion">
           <ul>
             <li class="borderRight">
-              <div><img class="iconoImg" src="img/99Footer/001btnUbicación.png"/></div>
+              <div>
+                <img class="iconoImg" src="img/99Footer/001btnUbicación.png" />
+              </div>
               <div class="direccionFooter">
                 <strong>Dirección:</strong>
-                <ul >
+                <ul>
                   <li>· Sede Centro de Lima: Jirón de la Unión 264</li>
                   <li>· Sede San Isidro: Av. Paseo de la República 3101</li>
                 </ul>
               </div>
-              
             </li>
             <li class="borderRight">
-              <div><img class="iconoImg" src="img/99Footer/002btnCalendario.png"/></div>
+              <div>
+                <img class="iconoImg" src="img/99Footer/002btnCalendario.png" />
+              </div>
               <div class="direccionFooter">
-                <strong>Horario de atención:</strong> 
-                <ul >
+                <strong>Horario de atención:</strong>
+                <ul>
                   <li>Lunes a viernes</li>
                   <li>de 8:30 a.m. a 5:30 p.m.</li>
                 </ul>
               </div>
             </li>
             <li class="borderRight">
-              <div><img class="iconoImg" src="img/99Footer/003btnMensaje.png"/></div>
+              <div>
+                <img class="iconoImg" src="img/99Footer/003btnMensaje.png" />
+              </div>
               <div class="direccionFooter">
                 <strong>Correo</strong>
-                <ul >
+                <ul>
                   <li>consulta.integridad@midis.gob.pe</li>
                 </ul>
               </div>
             </li>
-            <li >
-              <div><img class="iconoImg" src="img/99Footer/004btnTelefono.png"/></div>
+            <li>
+              <div>
+                <img class="iconoImg" src="img/99Footer/004btnTelefono.png" />
+              </div>
               <div class="direccionFooter">
                 <strong>Central telefónica</strong>
-                <ul >
+                <ul>
                   <li>· 51 1 1631 80 00</li>
                   <li>· Línea social gratuita 101</li>
                 </ul>
               </div>
             </li>
           </ul>
-      </div>
+        </div>
 
-      <div class="botonesFooter">
+        <div class="botonesFooter">
           <ul>
-            <a href="https://www.facebook.com/MidisPeru" target="_blank" rel="noopener noreferrer"><img class="iconoImgRedesSociales" src="img/99Footer/01btnFace.png"/></a>
-            <a href="https://x.com/MidisPeru" target="_blank" rel="noopener noreferrer"><img class="iconoImgRedesSociales" src="img/99Footer/02btnX.png"/></a>
-            <a href="https://www.instagram.com/midisperu/" target="_blank" rel="noopener noreferrer"><img class="iconoImgRedesSociales" src="img/99Footer/03btnInstagram.png"/></a>
-            <a href="https://www.youtube.com/user/MIDISPeru" target="_blank" rel="noopener noreferrer"><img class="iconoImgRedesSociales" src="img/99Footer/04btnYoutube.png"/></a>
-            <a href="https://www.flickr.com/people/prensamidis/" target="_blank" rel="noopener noreferrer"><img class="iconoImgRedesSociales" src="img/99Footer/05btnFlickr.png"/></a>
-            <a href="https://pe.linkedin.com/company/midisperu" target="_blank" rel="noopener noreferrer"><img class="iconoImgRedesSociales" src="img/99Footer/06btnLinkedin.png"/></a>
+            <a
+              href="https://www.facebook.com/MidisPeru"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                class="iconoImgRedesSociales"
+                src="img/99Footer/01btnFace.png"
+            /></a>
+            <a
+              href="https://x.com/MidisPeru"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img class="iconoImgRedesSociales" src="img/99Footer/02btnX.png"
+            /></a>
+            <a
+              href="https://www.instagram.com/midisperu/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                class="iconoImgRedesSociales"
+                src="img/99Footer/03btnInstagram.png"
+            /></a>
+            <a
+              href="https://www.youtube.com/user/MIDISPeru"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                class="iconoImgRedesSociales"
+                src="img/99Footer/04btnYoutube.png"
+            /></a>
+            <a
+              href="https://www.flickr.com/people/prensamidis/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                class="iconoImgRedesSociales"
+                src="img/99Footer/05btnFlickr.png"
+            /></a>
+            <a
+              href="https://pe.linkedin.com/company/midisperu"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                class="iconoImgRedesSociales"
+                src="img/99Footer/06btnLinkedin.png"
+            /></a>
             <p>/MidisPerú</p>
-        </ul>
+          </ul>
+        </div>
       </div>
+    </footer>
 
-    </div>
-         
-  </footer>
-  
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
