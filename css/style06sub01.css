@@ -304,6 +304,11 @@ ul{
     bottom: 32%;
     left: 12%;
 }
+.btnMasInformacionPosicionAbajo{
+    position: absolute;
+    bottom: 26%;
+    left: 12%;
+}
 .btnMasInformacionPosicion{
     position: absolute;
     bottom: 14%;
